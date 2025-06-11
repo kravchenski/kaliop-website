@@ -1,0 +1,7 @@
+@forward './utils/variables';
+@use './base/reset';
+@use './components/profile';
+@use './layout/main';
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');

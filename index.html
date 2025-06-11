@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaliop Poland</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <header class="profile-header">
+      <div class="cover-photo">
+        <img src="https://picsum.photos/1600/400" alt="Cover photo" class="cover-image" />
+      </div>
+      <div class="profile-info">
+        <div class="profile-logo">
+          <img src="https://picsum.photos/200/200" alt="Kaliop Poland Logo" class="logo-image" />
+        </div>
+        <div class="profile-details">
+          <h2>Kaliop Poland</h2>
+          <div class="profile-stats">
+            <span>403 polubienia</span>
+            <span>•</span>
+            <span>458 obserwujący</span>
+          </div>
+          <div class="profile-avatars">
+            <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="User" />
+            <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="User" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">    
+      <div class="action-bar">
+        <div class="primary-actions">
+          <button class="btn btn-primary"><i>📨</i><span>Wyślij wiadomość</span></button>
+          <button class="btn btn-secondary"><i>👍</i><span>Lubisz to</span></button>
+          <button class="btn btn-secondary"><i>🔍</i><span>Szukaj</span></button>
+        </div>
+      </div>
+
+      <nav class="profile-nav">
+        <ul>
+          <li class="active"><a href="#posts">Posty</a></li>
+          <li><a href="#info">Informacje</a></li>
+          <li><a href="#mentions">Wzmianki</a></li>
+          <li class="mobile-hide"><a href="#ratings">Opinie</a></li>
+          <li class="mobile-hide"><a href="#followers">Obserwujący</a></li>
+          <li class="mobile-hide"><a href="#photos">Zdjęcia</a></li>
+          <li class="more-menu">
+            <button>Więcej</button>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="profile-content">
+        <aside class="profile-sidebar">
+          <div class="info-card">
+            <h3>Prezentacja</h3>
+            <p>Dostawca rozwiązań IT dla biznesu. 20 lat doświadczeń na rynku, setki zrealizowanych projektów.</p>
+            <ul class="contact-info">
+              <li><i class="icon-business">💼</i>Strona • Usługi biznesowe</li>
+              <li><i class="icon-location">📍</i>Portowa 13B, Słupsk, Poland</li>
+              <li><i class="icon-phone">📞</i>59 841 37 14</li>
+              <li><i class="icon-email">✉️</i>biuro@kaliop.pl</li>
+              <li><a href="https://kaliop.pl" class="website-link">🌐 kaliop.pl</a></li>
+            </ul>
+            <button class="btn-promote">Promuj witrynę</button>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
