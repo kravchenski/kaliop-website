@@ -1,42 +1,51 @@
-# Facebook Profile Clone (Responsive)
+Вот адаптированный `README.md` файл для проекта **Kaliop Profile Clone**, аналогичный стилю Facebook Profile Clone, с указанием технологий, структуры и инструкций:
 
-A responsive Facebook profile clone built with Vite, Sass (SCSS), PNPM, HTML5, and CSS3. The project uses a mobile-first approach, Google Fonts, SVG icons, and a modular SCSS structure with variables and at least one breakpoint for desktop. The design is inspired by Facebook but uses custom images, icons, and text.
+---
 
-## Features
-- Mobile-first responsive layout
-- Desktop and mobile views
-- Modern SCSS structure (variables, components, layout, reset)
-- Google Fonts (Inter)
-- SVG icons (MDI or similar)
-- Custom color palette
-- Browser reset
-- Ready for GitHub Pages deployment
+# Kaliop Profile Clone (Responsive)
 
-## Getting Started
+A responsive **Kaliop profile** clone built with **Vite**, **Sass (SCSS)**, **PNPM**, **HTML5**, and **CSS3**. This project follows a **mobile-first approach**, includes **Google Fonts**, **SVG icons**, and uses a **modular SCSS architecture** with variables and at least one desktop breakpoint. It is **inspired by Kaliop's design language** but features custom layout, icons, and text.
 
-### Prerequisites
-- [PNPM](https://pnpm.io/)
-- [Node.js](https://nodejs.org/)
+## ✨ Features
 
-### Install dependencies
+* ✅ Mobile-first responsive layout
+* ✅ Desktop and mobile views
+* ✅ SCSS structure with modular components
+* ✅ Google Fonts (e.g., Inter, optional replacement)
+* ✅ SVG icons (Material Design Icons or similar)
+* ✅ Custom color palette inspired by Kaliop branding
+* ✅ CSS Reset for cross-browser consistency
+* ✅ Optimized for GitHub Pages or static hosting
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+Ensure you have the following installed:
+
+* [PNPM](https://pnpm.io/)
+* [Node.js](https://nodejs.org/)
+
+### 📥 Install Dependencies
+
 ```sh
 pnpm install
 ```
 
-### Run the development server
+### 🛠 Run the Development Server
+
 ```sh
 pnpm run dev
 ```
 
-### Build for production
+### 🏗 Build for Production
+
 ```sh
 pnpm run build
 ```
 
-### Preview production build
+### 🔍 Preview the Production Build
+
 ```sh
 pnpm run preview
 ```
-
-## License
-MIT
