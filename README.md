@@ -1,7 +1,3 @@
-Вот адаптированный `README.md` файл для проекта **Kaliop Profile Clone**, аналогичный стилю Facebook Profile Clone, с указанием технологий, структуры и инструкций:
-
----
-
 # Kaliop Profile Clone (Responsive)
 
 A responsive **Kaliop profile** clone built with **Vite**, **Sass (SCSS)**, **PNPM**, **HTML5**, and **CSS3**. This project follows a **mobile-first approach**, includes **Google Fonts**, **SVG icons**, and uses a **modular SCSS architecture** with variables and at least one desktop breakpoint. It is **inspired by Kaliop's design language** but features custom layout, icons, and text.
